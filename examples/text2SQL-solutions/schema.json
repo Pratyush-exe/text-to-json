@@ -1,0 +1,146 @@
+{
+    "schema_description": "List of research documents",
+    "properties": {
+      "title": {
+        "type": "string",
+        "description": "Title of the paper or document"
+      },
+      "authors": {
+        "type": "array",
+        "description": "List of authors of the paper",
+        "items": {
+          "type": "string"
+        }
+      },
+      "abstract": {
+        "type": "string",
+        "description": "Up to 5 bullet points describing what is new in the approach"
+      },
+      "date_written": {
+        "type": "string",
+        "description": "Date when paper was written"
+      },
+      "related_work": {
+        "type": "array",
+        "description": "List of strings, with related works done; keep the points short and precise",
+        "items": {
+          "type": "string"
+        }
+      },
+      "approach": {
+        "type": "array",
+        "description": "List of methods used in the approach",
+        "items": {
+          "type": "object",
+          "properties": {
+            "approach_name": {
+              "type": "string",
+              "description": "Name of the method or technique"
+            },
+            "description": {
+              "type": "string",
+              "description": "Brief summary of what the method is"
+            },
+            "steps": {
+              "type": "array",
+              "description": "Step-by-step breakdown of the approach",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "step_title": {
+                    "description": "title of the step",
+                    "type": "string"
+                  },
+                  "details": {
+                    "description": "more details regarding the step",
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "improvements": {
+              "type": "object",
+              "description": "Impact of the approach",
+              "properties": {
+                "metric": {
+                  "type": "string"
+                },
+                "value_added": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "dataset": {
+        "type": "array",
+        "description": "List of datasets used for training and experimentation",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "description": "Name of the dataset used here",
+              "type": "string"
+            },
+            "source": {
+              "description": "source of the dataset, if known",
+              "type": "string"
+            },
+            "preprocessing": {
+              "description": "preprocessing steps if any done in the paper",
+              "type": "object",
+              "properties": {
+                "steps": {
+                  "description": "Steps done for preprocessing in numbered format",
+                  "type": "string"
+                },
+                "tools_used": {
+                  "description": "any specific tools used for preprocessing",
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "experiment_results": {
+        "type": "array",
+        "description": "Summarized studies and their results, if available",
+        "items": {
+          "type": "object",
+          "properties": {
+            "experiment_name": {
+              "description": "name of the experiment done",
+              "type": "string"
+            },
+            "metrics": {
+              "description": "what all metrics were checked during the process",
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "metric_name": {
+                    "description": "name of the metric checked",
+                    "type": "string"
+                  },
+                  "value": {
+                    "description": "value of the results, if known",
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "references": {
+        "type": "array",
+        "description": "List of references used in the paper",
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+  }
+  

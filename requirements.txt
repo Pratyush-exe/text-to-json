@@ -1,2 +1,4 @@
-streamlit>=1.22.0
-jsonschema>=4.17.3
+streamlit
+python-dotenv
+tqdm
+pymupdf

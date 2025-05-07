@@ -1,0 +1,117 @@
+(general) C:\Users\Pratyush\Desktop\text-to-json>streamlit run main.py
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.1.12:8501
+
+STARTING WORKFLOW
+SETUP COMPLETED in 0.00 seconds
+Generating responses: 100%|██████████████████████████████████████████████████████████████████| 15/15 [00:10<00:00,  1.46it/s]
+100%|████████████████████████████████████████████████████████████████████████████████████████████████| 27/27 [00:00<?, ?it/s]
+STEP 1 COMPLETED in 26.30 seconds
+STEP 2 COMPLETED in 0.00 seconds
+ trunk 0  title
+ trunk 0  authors[]
+ trunk 0  abstract
+ trunk 0  date_written
+ trunk 0  related_work[]
+ trunk 0  approach[]
+branch 1 ──── approach_name
+branch 1 ──── description
+branch 1 ──── steps[]
+branch 2 ──────── step_title
+branch 2 ──────── details
+branch 1 ──── improvements
+branch 2 ──────── metric
+branch 2 ──────── value_added
+ trunk 0  dataset[]
+branch 1 ──── name
+branch 1 ──── source
+branch 1 ──── preprocessing
+branch 2 ──────── steps
+branch 2 ──────── tools_used
+ trunk 0  experiment_results[]
+branch 1 ──── experiment_name
+branch 1 ──── metrics[]
+branch 2 ──────── metric_name
+branch 2 ──────── value
+ trunk 0  references[]
+STEP 3 COMPLETED in 0.00 seconds
+STEP 4 COMPLETED in 81.05 seconds
+STEP 5 COMPLETED in 0.00 seconds
+WORKFLOW COMPLETED in 107.36 seconds
+STARTING WORKFLOW
+SETUP COMPLETED in 0.00 seconds
+Generating responses: 100%|██████████████████████████████████████████████████████████████████| 10/10 [00:07<00:00,  1.38it/s]
+100%|█████████████████████████████████████████████████████████████████████████████████████| 29/29 [00:00<00:00, 29232.11it/s]
+STEP 1 COMPLETED in 20.60 seconds
+STEP 2 COMPLETED in 0.00 seconds
+ trunk 0  title
+ trunk 0  authors[]
+ trunk 0  abstract
+ trunk 0  date_written
+ trunk 0  related_work[]
+ trunk 0  approach[]
+branch 1 ──── approach_name
+branch 1 ──── description
+branch 1 ──── steps[]
+branch 2 ──────── step_title
+branch 2 ──────── details
+branch 1 ──── improvements
+branch 2 ──────── metric
+branch 2 ──────── value_added
+ trunk 0  dataset[]
+branch 1 ──── name
+branch 1 ──── source
+branch 1 ──── preprocessing
+branch 2 ──────── steps
+branch 2 ──────── tools_used
+ trunk 0  experiment_results[]
+branch 1 ──── experiment_name
+branch 1 ──── metrics[]
+branch 2 ──────── metric_name
+branch 2 ──────── value
+ trunk 0  references[]
+STEP 3 COMPLETED in 0.00 seconds
+Fixing JSON ...
+STEP 4 COMPLETED in 78.30 seconds
+STEP 5 COMPLETED in 0.00 seconds
+WORKFLOW COMPLETED in 98.91 seconds
+STARTING WORKFLOW
+SETUP COMPLETED in 0.00 seconds
+Generating responses: 100%|██████████████████████████████████████████████████████████████████| 14/14 [00:08<00:00,  1.56it/s]
+100%|████████████████████████████████████████████████████████████████████████████████████████████████| 53/53 [00:00<?, ?it/s]
+STEP 1 COMPLETED in 27.37 seconds
+STEP 2 COMPLETED in 0.00 seconds
+ trunk 0  title
+ trunk 0  authors[]
+ trunk 0  abstract
+ trunk 0  date_written
+ trunk 0  related_work[]
+ trunk 0  approach[]
+branch 1 ──── approach_name
+branch 1 ──── description
+branch 1 ──── steps[]
+branch 2 ──────── step_title
+branch 2 ──────── details
+branch 1 ──── improvements
+branch 2 ──────── metric
+branch 2 ──────── value_added
+ trunk 0  dataset[]
+branch 1 ──── name
+branch 1 ──── source
+branch 1 ──── preprocessing
+branch 2 ──────── steps
+branch 2 ──────── tools_used
+ trunk 0  experiment_results[]
+branch 1 ──── experiment_name
+branch 1 ──── metrics[]
+branch 2 ──────── metric_name
+branch 2 ──────── value
+ trunk 0  references[]
+STEP 3 COMPLETED in 0.00 seconds
+Error list index out of range
+STEP 4 COMPLETED in 70.99 seconds
+STEP 5 COMPLETED in 0.00 seconds
+WORKFLOW COMPLETED in 98.37 seconds

@@ -1,3 +1,9 @@
+test.txt
+.vscode
+temp
+logs
+added_headings.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
